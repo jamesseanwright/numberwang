@@ -1,0 +1,5 @@
+number lightSpeedMs = 299792458;
+number sunDistanceMeters = 149600000000;
+number secondsPerMinute = 60;
+
+sunDistanceMeters / lightSpeedMs / secondsPerMinute
