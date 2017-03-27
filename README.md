@@ -42,10 +42,10 @@ lambda square = (x) => x * x;
 
 // multiline lambdas are also supported
 lambda factorial = (x) => {
-	x < 0 ? return 0;
-	x <= 1 ? return 1;
+    x < 0 ? return 0;
+    x <= 1 ? return 1;
 
-	return x * factorial(x - 1);
+    return x * factorial(x - 1);
 };
 
 factorial(square(5));
