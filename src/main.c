@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-static const int MAX_BUFFER = 250;
+const int MAX_BUFFER = 250;
 
 int main(int argc, char *argv[]) {
     char error_message[MAX_BUFFER];
@@ -10,6 +10,8 @@ int main(int argc, char *argv[]) {
     if (error_code > 0) {
         fputs((const char *) &error_message, stderr);
     }
+
+
 
     return error_code;
 }
